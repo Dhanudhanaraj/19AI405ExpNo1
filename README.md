@@ -9,7 +9,7 @@ To find the PEAS description for the given AI problem and develop an AI agent.
 
 ## Theory
 ### Vaccum Cleaner agent:
-Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.
+The VacuumCleanerAgent is a Python class that simulates the behavior of a basic vacuum cleaner in a two-location environment ("A" and "B"). The agent can perform four actions: move left, move right, suck dirt, and do nothing. Its state includes the current location and dirt status in each location. The agent's initial state is at location "A" with no dirt. Actions like moving and sucking dirt can change its state, and the print_status method displays the current location and dirt status. This agent provides a foundation for simple vacuum cleaner simulations and can be adapted for more complex scenarios.
 
 ## PEAS DESCRIPTION:
 ![Screenshot 2024-02-25 211840](https://github.com/Dhanudhanaraj/19AI405ExpNo1/assets/119218812/0cf2b782-5af0-4c68-bafb-bb4d514ffc32)
